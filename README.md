@@ -7,8 +7,8 @@ Cache-ville is an in-memory cache manager built in Node.js
 Required:  
 `node` (built in 8.9.4, tested to work in 10.7.0)
 
-Installation
-`clone repo`  
+Installation  
+`git clone https://github.com/AlanLeePhilly/cache-ville.git`  
 `cd in-memory-cache`  
 `node index.js`  
 
