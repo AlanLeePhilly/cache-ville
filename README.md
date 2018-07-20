@@ -9,7 +9,7 @@ Required:
 
 Installation  
 `git clone https://github.com/AlanLeePhilly/cache-ville.git`  
-`cd in-memory-cache`  
+`cd cache-ville`  
 `node index.js`  
 
 AVAILABLE COMMANDS
@@ -30,7 +30,7 @@ TRANSACTION COMMANDS
 |---------|---------|
 | BEGIN | Open a new transaction block. |
 | ROLLBACK | Undo all of the data commands issued within the most recent transaction block and close that block. |
-| COMMIT | Close _all_ open transaction blocks, permanently applying all data commands made within them. |
+| COMMIT | Close all open transaction blocks, permanently applying all data commands made within them. |
 
 ## HOW IT WAS BUILT  
 I started by building the `process.stdin.on` block to receive user input from the command line. It parses the input and uses a switch statement as a directory to trigger the requested function and send along any given arguments. 
