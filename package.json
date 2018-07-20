@@ -1,0 +1,8 @@
+{
+  "name": "cache-ville",
+  "version": "1.0.0",
+  "description": "Moven challenge to create in-memory cache",
+  "main": "index.js",
+  "author": "Alan Lee",
+  "license": "ISC"
+}
